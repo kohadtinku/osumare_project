@@ -111,7 +111,7 @@ const Section4 = () => {
         </div>
       </div>
 
-      <div className="slider bg-white text-center shadow-md py-10 px-6 md:px-10 rounded-md items-center justify-center flex flex-col">
+      <div className="slider bg-white text-center  py-10 px-6 md:px-10 rounded-md items-center justify-center flex flex-col">
         <h1 className="text-3xl font-bold py-4">
           What Our Pharma Partners Say
         </h1>
@@ -152,14 +152,14 @@ const Section4 = () => {
 
       <div className="dropdown py-10 mt-10 flex flex-col justify-center  rounded-lg items-center">
       <h1 className="text-3xl font-bold py-4">Frequently Asked Questions</h1>
-      <p className="text-2xl w-[60vw]">
+      <p className="text-2xl">
         Pinpoint your audience with precision, ensuring your marketing efforts
         reach those most likely to engage with your brand.
       </p>
       <div className="main mt-10 border-[2px] mx-10 shadow-lg h-[fit-content]  flex flex-col top-0 py-10 w-[fit-content]">
 
 
-      <div className="relative font-[sans-serif] h-[fit-content] mx-10 w-max  mt-10 bg-gray-50 " >
+      <div className="relative font-[sans-serif] w-[fit-content] mx-auto">
         <button
           type="button"
           className="px-5 py-2.5 rounded text-white text-sm font-semibold border-none outline-none bg-blue-600 hover:bg-blue-700 active:bg-blue-600"
@@ -189,7 +189,7 @@ const Section4 = () => {
           </ul>
         )}
       </div>
-      <div className="relative font-[sans-serif] w-max mx-auto">
+      <div className="relative font-[sans-serif] w-[fit-content] mx-auto">
         <button
           type="button"
           className="px-5 py-2.5 rounded text-white text-sm font-semibold border-none outline-none bg-blue-600 hover:bg-blue-700 active:bg-blue-600"
