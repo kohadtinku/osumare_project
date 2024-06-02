@@ -22,14 +22,14 @@ const Section4 = () => {
 
   return (
     <>
-      <div className="Section4">
-        <h1 className="mt-10 font-bold text-center py-5 text-2xl md:text-3xl">
+      <div className="Section4 mx-10">
+        <h1 className="mt-10 font-bold text-center py-5 text-2xl md:text-3xl mx-10">
           Driving Property Inquiries to Conversions{" "}
         </h1>
-        <p className="text-center text-1xl">
+        <p className="text-center text-2xl">
           Streamlined Strategies for Real Estate Success
         </p>
-        <div className="section2 grid grid-cols-1 md:grid-cols-2 py-10">
+        <div className="section2 grid grid-cols-1 md:grid-cols-2 py-5 mx-10">
           <div className="block1">
             <img
               src={img1}
@@ -37,7 +37,7 @@ const Section4 = () => {
               alt=""
             />
           </div>
-          <div className="block2 w-full md:w-[600px] flex flex-col gap-3">
+          <div className="block2 w-full md:w-[600px] flex flex-col gap-3 py-5 ">
             <h1 className="text-2xl md:text-3xl lg:text-4xl">
               Optimized Path to Property Purchase{" "}
             </h1>
@@ -95,7 +95,7 @@ const Section4 = () => {
 
       <div className="container flex justify-center items-center mb-20">
         <div className="main flex justify-center items-center w-full">
-          <div className="block2 w-full md:w-[600px] flex flex-col gap-3 text-center">
+          <div className="block2 w-full md:w-[600px] flex flex-col gap-3 items-center text-center">
             <h1 className="text-2xl md:text-3xl lg:text-4xl">
               Your Peace of Mind
             </h1>

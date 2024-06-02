@@ -39,7 +39,7 @@ const Hero = () => {
       <h1 className="mt-10 font-bold text-center py-5 text-2xl md:text-3xl">
         Real Estate-Focused Digital Mastery
       </h1>
-      <div className="section2 flex flex-col md:flex-row justify-center gap-10 py-10">
+      <div className="section2 flex flex-col md:flex-row justify-center gap-10 py-10 mx-10">
         <div className="block1">
           <img
             src={img1}
