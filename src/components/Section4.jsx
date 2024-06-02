@@ -22,14 +22,14 @@ const Section4 = () => {
 
   return (
     <>
-      <div className="Section4 mx-10">
-        <h1 className="mt-10 font-bold text-center py-5 text-2xl md:text-3xl mx-10">
+      <div className="Section4 mx-5">
+        <h1 className="mt-10 font-bold text-center py-5 text-2xl md:text-3xl mx-5">
           Driving Property Inquiries to Conversions{" "}
         </h1>
         <p className="text-center text-2xl">
           Streamlined Strategies for Real Estate Success
         </p>
-        <div className="section2 grid grid-cols-1 md:grid-cols-2 py-5 mx-10">
+        <div className="section2 grid grid-cols-1 md:grid-cols-2 py-5 ">
           <div className="block1">
             <img
               src={img1}
