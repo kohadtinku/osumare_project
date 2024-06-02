@@ -1,0 +1,23 @@
+@media screen and (max-width: 425px) {
+  .main {
+    flex-direction: column;
+  }
+  .img{
+    margin-left: 50px !important;
+    margin-top: 80vh;
+    height: 200px !important;
+  }
+  .c-card {
+    align-items: center;
+    width: 328px;
+    display: flex;
+    justify-content: center;
+  }
+  .custom-card{
+    width: 330px !important;
+    margin-left: 70px;
+  }
+  .c_img{
+    height: 250px !important;
+  }
+}
